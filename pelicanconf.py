@@ -1,8 +1,12 @@
 AUTHOR = 'Jose V. Benavides'
 SITENAME = 'k6wlr.com'
-SITEURL = ''
+SITEURL = 'https://k6wlr.com'
+SITESUBTITLE = 'Fun with technology'
+
+#SUMMARY_MAX_LENGTH = 150
 
 PATH = 'content'
+ARTICLE_PATHS = ['posts']
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -17,15 +21,31 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('NASA', 'http://nasa.gov/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/jvbenavi'),
+          ('github', 'https://github.com/jvbenavi'),)
+
+# octo
+SIDEBAR_IMAGE = 'images/redknight.png'
+SIDEBAR_IMAGE_ALT = "alt text"
+SIDEBAR_IMAGE_WIDTH = 100
+SEARCH_BOX = 'true'
+
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
+MONTH_ARCIVE_SAVE_AS = 'blog/{date:%Y}/{date:%b}/index.html'
 
 DEFAULT_PAGINATION = False
+
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_CATEGORIES_ON_MENU = False
+STATIC_PATHS = ['images', 'pdfs', 'static']
+
+#PLUGIN_PATHS = ['../pelican-plugins']
+#PLUGINS = ['liquid_tags.img']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

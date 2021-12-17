@@ -1,0 +1,210 @@
+<html xmlns:mwsh="http://www.mathworks.com/namespace/mcode/v1/syntaxhighlight.dtd">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <!--
+This HTML is auto-generated from an M-file.
+To make changes, update the M-file and republish this document.
+      -->
+      <title>MBC design problem</title>
+      <meta name="generator" content="MATLAB 7.1">
+      <meta name="date" content="2007-03-05">
+      <meta name="m-file" content="HW1"><style>
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows.  On Gecko-based browsers, the shrink-to-fit doesn't work. */ 
+p,h1,h2,div.content div {
+  /* for MATLAB's browser */
+  width: 600px;
+  /* for Mozilla, but the "width" tag overrides it anyway */
+  max-width: 600px;
+  /* for IE */
+  width:expression(document.body.clientWidth > 620 ? "600px": "auto" );
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head>
+   <body>
+      <div class="content">
+         <h1>MBC design problem</h1>
+         <introduction>
+            <p>mbc design, Use mbc mfile to do problem I gave you in class i.e. study how plots change as you vary k and z in K = k [ (s+z)/s
+               ]  [ 1000/(s+1000) ]^2; P1 = (s-200)/(s-2) , P2 = (s-20)/(s-2) , and P3 = (s-4)/(s-2) Comment on sens and comp sens (Understand
+               how a small rhp zero makes the control problem more challenging)
+            </p>
+         </introduction>
+         <h2>Contents</h2>
+         <div>
+            <ul>
+               <li><a href="#2">Form Plant P1=(s-200)/(s-2) P2=(s-20)/(s-2) P3=(s-4)/(s-2)</a></li>
+               <li><a href="#3">Using Plant 1 with k=-0.1 z=2</a></li>
+               <li><a href="#4">Using Plant 2 with k=-0.5 z=2</a></li>
+               <li><a href="#5">Using Plant 3 with k=-0.9 z=0.1</a></li>
+            </ul>
+         </div><pre class="codeinput">clc; clear; close <span class="string">all</span>;
+</pre><h2>Form Plant P1=(s-200)/(s-2) P2=(s-20)/(s-2) P3=(s-4)/(s-2)<a name="2"></a></h2><pre class="codeinput">ap = 2; bp = -198; cp = 1; dp = 1;
+plant1 = ss(ap,-198,cp,dp);
+plant2 = ss(ap,-18,cp,dp);
+plant3 = ss(ap,-2,cp,dp);
+</pre><h2>Using Plant 1 with k=-0.1 z=2<a name="3"></a></h2><pre class="codeinput">disp(<span class="string">'Using Plant 1 with k=-0.1 z=2'</span>)
+HW1_MBC(-0.1,2,plant1) <span class="comment">% choose k, z, plant to use and call mfile</span>
+</pre><pre class="codeoutput">Using Plant 1 with k=-0.1 z=2
+Open Loop Poles:
+                                            
+ Eigenvalue      Damping     Freq. (rad/s)  
+                                            
+  0.00e+000    -1.00e+000      0.00e+000    
+  2.00e+000    -1.00e+000      2.00e+000    
+ -1.00e+003     1.00e+000      1.00e+003    
+ -1.00e+003     1.00e+000      1.00e+003    
+                                            
+ol_zeros =
+  1.0e+002 *
+  -0.02000000000000   2.00000000000000
+Closed Loop Poles:
+                                            
+ Eigenvalue      Damping     Freq. (rad/s)  
+                                            
+ -2.58e+000     1.00e+000      2.58e+000    
+ -1.81e+001     1.00e+000      1.81e+001    
+ -6.39e+002     1.00e+000      6.39e+002    
+ -1.34e+003     1.00e+000      1.34e+003    
+                                            
+sen_zeros =
+  1.0e+003 *
+   0.00200000000000  -1.00000000366348  -0.99999999633652   0.00000000000000
+</pre><img vspace="5" hspace="5" src="HW1_01.jpg"> <img vspace="5" hspace="5" src="HW1_02.jpg"> <img vspace="5" hspace="5" src="HW1_03.jpg"> <h2>Using Plant 2 with k=-0.5 z=2<a name="4"></a></h2><pre class="codeinput">disp(<span class="string">'Using Plant 2 with k=-0.5 z=2'</span>)
+HW1_MBC(-0.5,2,plant2); <span class="comment">% choose k, z, plant to use and call mfile</span>
+</pre><pre class="codeoutput">Using Plant 2 with k=-0.5 z=2
+Open Loop Poles:
+                                            
+ Eigenvalue      Damping     Freq. (rad/s)  
+                                            
+  0.00e+000    -1.00e+000      0.00e+000    
+  2.00e+000    -1.00e+000      2.00e+000    
+ -1.00e+003     1.00e+000      1.00e+003    
+ -1.00e+003     1.00e+000      1.00e+003    
+                                            
+ol_zeros =
+    -2    20
+Closed Loop Poles:
+                                            
+ Eigenvalue      Damping     Freq. (rad/s)  
+                                            
+ -3.94e+000     1.00e+000      3.94e+000    
+ -1.09e+001     1.00e+000      1.09e+001    
+ -2.73e+002     1.00e+000      2.73e+002    
+ -1.71e+003     1.00e+000      1.71e+003    
+                                            
+sen_zeros =
+  1.0e+002 *
+  Columns 1 through 2 
+  0.02000000000000                     -9.99999999999999 - 0.00000033722220i
+  Columns 3 through 4 
+ -9.99999999999999 + 0.00000033722220i  0.00000000000000                    
+</pre><img vspace="5" hspace="5" src="HW1_04.jpg"> <img vspace="5" hspace="5" src="HW1_05.jpg"> <img vspace="5" hspace="5" src="HW1_06.jpg"> <h2>Using Plant 3 with k=-0.9 z=0.1<a name="5"></a></h2><pre class="codeinput">disp(<span class="string">'Using Plant 3 with k=-0.9 z=0.1'</span>)
+HW1_MBC(-0.9,0.1,plant3) <span class="comment">% choose k, z, plant to use and call mfile</span>
+</pre><pre class="codeoutput">Using Plant 3 with k=-0.9 z=0.1
+Open Loop Poles:
+                                            
+ Eigenvalue      Damping     Freq. (rad/s)  
+                                            
+  0.00e+000    -1.00e+000      0.00e+000    
+  2.00e+000    -1.00e+000      2.00e+000    
+ -1.00e+003     1.00e+000      1.00e+003    
+ -1.00e+003     1.00e+000      1.00e+003    
+                                            
+ol_zeros =
+  -0.10000000000000   4.00000000000000
+Closed Loop Poles:
+                                                         
+        Eigenvalue            Damping     Freq. (rad/s)  
+                                                         
+ -2.42e-001                  1.00e+000      2.42e-001    
+ -2.43e+001 + 1.31e+001i     8.80e-001      2.76e+001    
+ -2.43e+001 - 1.31e+001i     8.80e-001      2.76e+001    
+ -1.95e+003                  1.00e+000      1.95e+003    
+                                                         
+sen_zeros =
+  1.0e+002 *
+  Columns 1 through 2 
+  0.02000000000000                     -9.99999999999999 - 0.00000016861110i
+  Columns 3 through 4 
+ -9.99999999999999 + 0.00000016861110i -0.00000000000000                    
+</pre><img vspace="5" hspace="5" src="HW1_07.jpg"> <img vspace="5" hspace="5" src="HW1_08.jpg"> <img vspace="5" hspace="5" src="HW1_09.jpg"> <p class="footer"><br>
+            Published with MATLAB&reg; 7.1<br></p>
+      </div>
+      <!--
+##### SOURCE BEGIN #####
+%% MBC design problem
+% mbc design, Use mbc mfile to do problem I gave you in class
+% i.e. study how plots change as you vary k and z in 
+% K = k [ (s+z)/s ]  [ 1000/(s+1000) ]^2; 
+% P1 = (s-200)/(s-2) , P2 = (s-20)/(s-2) , and P3 = (s-4)/(s-2)
+% Comment on sens and comp sens (Understand how a small rhp zero makes the
+% control problem more challenging)
+%%
+clc; clear; close all;
+%% Form Plant P1=(s-200)/(s-2) P2=(s-20)/(s-2) P3=(s-4)/(s-2) 
+ap = 2; bp = -198; cp = 1; dp = 1;
+plant1 = ss(ap,-198,cp,dp); 
+plant2 = ss(ap,-18,cp,dp); 
+plant3 = ss(ap,-2,cp,dp); 
+
+%% Using Plant 1 with k=-0.1 z=2
+disp('Using Plant 1 with k=-0.1 z=2')
+HW1_MBC(-0.1,2,plant1) % choose k, z, plant to use and call mfile
+%% Using Plant 2 with k=-0.5 z=2
+disp('Using Plant 2 with k=-0.5 z=2')
+HW1_MBC(-0.5,2,plant2); % choose k, z, plant to use and call mfile
+%% Using Plant 3 with k=-0.9 z=0.1
+disp('Using Plant 3 with k=-0.9 z=0.1')
+HW1_MBC(-0.9,0.1,plant3) % choose k, z, plant to use and call mfile
+
+
+##### SOURCE END #####
+-->
+   </body>
+</html>

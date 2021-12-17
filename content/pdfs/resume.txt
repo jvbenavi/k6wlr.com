@@ -1,0 +1,65 @@
+Jose V. Benavides	1158 Morse Ave. #108 Sunnyvale, CA 94089 	(602) 318-5255, Redknight4545@gmail.com 
+
+Objective:	
+Find a challenging full time engineering position in the area of Embedded Systems or Control Systems
+
+Experience:
+
+2003 - Present 	Microchip Technology Inc. 		Chandler, AZ
+Applications Intern
+*	Built, debugged, executed, and analyzed microcontroller test setup data resulting in a significant design win
+*	Authored three published application articles demonstrating the use of Microchip products for embedded systems development
+*	Developed and taught short courses on embedded systems signal conditioning and embedded feedback systems at Microchip 05 & 07 Technology Conferences
+
+Summer 06 & 07	International Business Machines		Austin, TX
+Co-op
+*	Power 7 VMX/Altivec Performance Verification
+*	Power 6 Server Firmware Bring-up
+
+Summer 2002 	International Business Machines		Tucson, AZ
+Co-op
+*	Maintained, configured, and tested IBM ESS mainframes
+*	Operated Unix/AIX systems
+
+Education:
+2001 - Present	Arizona State University		Tempe, AZ
+*	Bachelor of Science Electrical Engineering, Dec 2005
+*	Masters of Science Electrical Engineering (Control Systems), May 2008
+*	3.5 GPA; 3.8 GPA in relevant courses (see below)
+
+Relevant Courses:
+*	Signals and Systems
+*	Computer Controlled Systems
+*	Random Signals Analysis
+*	Multivariable Control Systems
+*	Feedback Systems
+*	Filter Design
+*	Digital Signal Processing
+*	Linear & Nonlinear Systems
+*	Optimal Controls
+*	Artificial Neural Networks
+
+Skills:
+*	68K & PIC Assembly Language
+*	Windows, Mac OS, Linux, AIX
+*	Linux/Unix Scripting
+*	C programming
+*	Printed Circuit Board layout design
+*	Excel VBA, MATLAB & Simulink programming
+*	HTML/CSS web programming
+*	Salsa Dancing
+
+Other Activities:	
+*	Developed & presented short course on embedded control systems at Microchip 2007 Technology Conference
+*	Developed a system for rapid prototyping of robust fault-tolerant embedded control systems using FPGAs & poster presentation; 3rd place Annual MGE@MSA/WAESO Student Research Conference 2007; Hispanics in Engineering National Conference 2006
+*	Developed robotics research kit & poster presentation; ASU Fulton Undergraduate Research Initiative (FURI) 2005; MAES International Symposium & Career Fair 2005 
+*	Development of "A Low Cost System Identification Chip Set" for use within a laboratory setting; Intended Application: Electrical Networks 2005
+*	Attended the Nomadic Engineering Design & Manufacturing ASU Summer Program touring three European countries including UK, France, and Spain. Summer 2005
+*	Past President, Vice President, Web Master, and founding member of MAES ASU (Mexican American Engineers and Scientists) 
+*	Past MAES Regional Vice President Region 1: California, Arizona. 2006
+*	Helped organize 2003 MAES National Symposium and Career Fair
+*	Co-Founder and Electrical Designer for High School F.I.R.S.T. (For Inspiration and Recognition of Science and Technology) Robotics Team 2000 - 2001
+*	Annual volunteer referee for regional F.I.R.S.T. tournament 2002 - 2007
+*	IEEE and SHPE (Society of Hispanic Professional Engineers) member
+*	NSF Computer Science, Engineering, Mathematics, and Science (CSEMS) Scholar
+*	GEM Fellowship recipient (National Consortium for Graduate Degrees for Minorities in Engineering and Science) 2006 - 2007

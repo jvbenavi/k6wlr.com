@@ -8,11 +8,10 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-SSH_HOST=localhost
+SSH_HOST=k6wlr.com
 SSH_PORT=22
 SSH_USER=jvbenavi
-SSH_TARGET_DIR=/var/www
-
+SSH_TARGET_DIR=/var/www/k6wlr.com/public_html
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)

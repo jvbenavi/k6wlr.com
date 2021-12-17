@@ -1,0 +1,215 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html xmlns:mwsh="http://www.mathworks.com/namespace/mcode/v1/syntaxhighlight.dtd">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <!--
+This HTML is auto-generated from an M-file.
+To make changes, update the M-file and republish this document.
+      -->
+      <title>f_CLTFM</title>
+      <meta name="generator" content="MATLAB 7.4">
+      <meta name="date" content="2007-04-16">
+      <meta name="m-file" content="f_CLTFM"><style>
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head>
+   <body>
+      <div class="content">
+         <h2>Contents</h2>
+         <div>
+            <ul>
+               <li><a href="#2">Lo = PK</a></li>
+               <li><a href="#3">Li = KP</a></li>
+               <li><a href="#4">Mo</a></li>
+               <li><a href="#5">Mi</a></li>
+               <li><a href="#6">So = inv(I+PK)  So = (I+Lo)^{-1}</a></li>
+               <li><a href="#7">Si = inv(I+KP)</a></li>
+               <li><a href="#8">To = PKinv(I+PK)  To = I - So = Lo (I + Lo)^{-1}</a></li>
+               <li><a href="#9">Ti = inv(I+KP)KP</a></li>
+               <li><a href="#10">KS</a></li>
+               <li><a href="#11">SP</a></li>
+            </ul>
+         </div><pre class="codeinput"><span class="keyword">function</span> [Lo,Li,So,Si,To,Ti,KS,SP] = f_CLTFM(P,K)
+
+[Ap, Bp, Cp, Dp] = ssdata(P);
+n_e = size(P,1);
+n_u = size(P,2);
+n_p = size(P,<span class="string">'order'</span>);
+[Ak, Bk, Ck, Dk] = ssdata(K);
+n_k = size(K,<span class="string">'order'</span>);
+</pre><h2>Lo = PK<a name="2"></a></h2><pre class="codeinput">A_Lo = [Ap Bp*Ck; zeros(n_k,n_p) Ak];
+B_Lo = [Bp*Dk; Bk];
+C_Lo = [Cp Dp*Ck];
+D_Lo = Dp*Dk;
+Lo = ss(A_Lo,B_Lo,C_Lo,D_Lo);
+</pre><h2>Li = KP<a name="3"></a></h2><pre class="codeinput">A_Li = [Ak Bk*Cp; zeros(n_p,n_k) Ap];
+B_Li = [Bk*Dp; Bp];
+C_Li = [Ck Dk*Cp];
+D_Li = Dk*Dp;
+Li = ss(A_Li,B_Li,C_Li,D_Li);
+</pre><h2>Mo<a name="4"></a></h2><pre class="codeinput">Mo = inv(eye(n_e)+Dp*Dk);
+</pre><h2>Mi<a name="5"></a></h2><pre class="codeinput">Mi = inv(eye(n_u)+Dk*Dp);
+</pre><h2>So = inv(I+PK)  So = (I+Lo)^{-1}<a name="6"></a></h2><pre class="codeinput">A_So = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck];
+B_So = [Bp*Dk*Mo; Bk*Mo];
+C_So = [-Mo*Cp -Mo*Dp*Ck];
+D_So = Mo;
+So = ss(A_So,B_So,C_So,D_So);
+</pre><h2>Si = inv(I+KP)<a name="7"></a></h2><pre class="codeinput">A_Si = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp];
+B_Si = [-Bk*Dp*Mi; Bp*Mi];
+C_Si = [Mi*Ck -Mi*Dk*Cp];
+D_Si = Mi;
+Si = ss(A_Si,B_Si,C_Si,D_Si);
+</pre><h2>To = PKinv(I+PK)  To = I - So = Lo (I + Lo)^{-1}<a name="8"></a></h2><pre class="codeinput">A_To = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck];
+B_To = [Bp*Dk*Mo; Bk*Mo];
+C_To = [Mo*Cp Mo*Dp*Ck];
+D_To = Mo*Dp*Dk;
+To = ss(A_To,B_To,C_To,D_To);
+</pre><h2>Ti = inv(I+KP)KP<a name="9"></a></h2><pre class="codeinput">A_Ti = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp];
+B_Ti = [-Bk*Dp*Mi; Bp*Mi];
+C_Ti = [Mi*Ck -Mi*Dk*Cp];
+D_Ti = -Dk*Dp*Mi;
+Ti = ss(A_Ti,B_Ti,C_Ti,D_Ti);
+</pre><h2>KS<a name="10"></a></h2><pre class="codeinput">A_ks = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck];
+B_ks = [Bp*Dk*Mo; Bk*Mo];
+C_ks = [-Dk*Mo*Cp Ck-Dk*Mo*Dp*Ck];
+D_ks = Dk*Mo;
+KS = ss(A_ks,B_ks,C_ks,D_ks);
+</pre><h2>SP<a name="11"></a></h2><pre class="codeinput">A_sp = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp];
+B_sp = [-Bk*Dp*Mi; Bp*Mi];
+C_sp = [Mo*Dp*Ck Mo*Cp];
+D_sp = Mo*Dp;
+SP = ss(A_sp,B_sp,C_sp,D_sp);
+</pre><p class="footer"><br>
+            Published with MATLAB&reg; 7.4<br></p>
+      </div>
+      <!--
+##### SOURCE BEGIN #####
+function [Lo,Li,So,Si,To,Ti,KS,SP] = f_CLTFM(P,K)
+
+[Ap, Bp, Cp, Dp] = ssdata(P);
+n_e = size(P,1);
+n_u = size(P,2);
+n_p = size(P,'order');
+[Ak, Bk, Ck, Dk] = ssdata(K);
+n_k = size(K,'order');
+
+%% Lo = PK
+A_Lo = [Ap Bp*Ck; zeros(n_k,n_p) Ak]; 
+B_Lo = [Bp*Dk; Bk];
+C_Lo = [Cp Dp*Ck]; 
+D_Lo = Dp*Dk;
+Lo = ss(A_Lo,B_Lo,C_Lo,D_Lo);
+
+%% Li = KP
+A_Li = [Ak Bk*Cp; zeros(n_p,n_k) Ap]; 
+B_Li = [Bk*Dp; Bp];
+C_Li = [Ck Dk*Cp]; 
+D_Li = Dk*Dp;
+Li = ss(A_Li,B_Li,C_Li,D_Li);
+
+%% Mo
+Mo = inv(eye(n_e)+Dp*Dk);
+%% Mi
+Mi = inv(eye(n_u)+Dk*Dp);
+
+%% So = inv(I+PK)  So = (I+Lo)^{-1}
+A_So = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck]; 
+B_So = [Bp*Dk*Mo; Bk*Mo];
+C_So = [-Mo*Cp -Mo*Dp*Ck]; 
+D_So = Mo;
+So = ss(A_So,B_So,C_So,D_So);
+
+%% Si = inv(I+KP)
+A_Si = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp]; 
+B_Si = [-Bk*Dp*Mi; Bp*Mi];
+C_Si = [Mi*Ck -Mi*Dk*Cp]; 
+D_Si = Mi;
+Si = ss(A_Si,B_Si,C_Si,D_Si);
+
+%% To = PKinv(I+PK)  To = I - So = Lo (I + Lo)^{-1}
+A_To = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck]; 
+B_To = [Bp*Dk*Mo; Bk*Mo];
+C_To = [Mo*Cp Mo*Dp*Ck]; 
+D_To = Mo*Dp*Dk;
+To = ss(A_To,B_To,C_To,D_To);
+
+%% Ti = inv(I+KP)KP
+A_Ti = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp]; 
+B_Ti = [-Bk*Dp*Mi; Bp*Mi];
+C_Ti = [Mi*Ck -Mi*Dk*Cp]; 
+D_Ti = -Dk*Dp*Mi;
+Ti = ss(A_Ti,B_Ti,C_Ti,D_Ti);
+
+%% KS 
+A_ks = [Ap-Bp*Dk*Mo*Cp Bp*Ck-Bp*Dk*Mo*Dp*Ck; -Bk*Mo*Cp Ak-Bk*Mo*Dp*Ck]; 
+B_ks = [Bp*Dk*Mo; Bk*Mo];
+C_ks = [-Dk*Mo*Cp Ck-Dk*Mo*Dp*Ck]; 
+D_ks = Dk*Mo;
+KS = ss(A_ks,B_ks,C_ks,D_ks);
+
+%% SP 
+A_sp = [Ak-Bk*Dp*Mi*Ck Bk*Dp*Mi*Dk*Cp-Bk*Cp; Bp*Mi*Ck Ap-Bp*Mi*Dk*Cp]; 
+B_sp = [-Bk*Dp*Mi; Bp*Mi];
+C_sp = [Mo*Dp*Ck Mo*Cp];  
+D_sp = Mo*Dp;
+SP = ss(A_sp,B_sp,C_sp,D_sp);
+##### SOURCE END #####
+-->
+   </body>
+</html>

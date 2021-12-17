@@ -1,0 +1,86 @@
+#!/bin/bash -x
+
+# 1. root passwd 
+
+# 2. run this as root
+DB_PASSWORD=k6dbpswd
+source StackScript.sh
+system_update 
+postfix_install_loopback_only
+mysql_install "$DB_PASSWORD" && mysql_tune 40
+php_install_with_apache && php_tune
+apache_install && apache_tune 40 && apache_virtualhost_from_rdns
+goodstuff
+wordpress_install $(get_rdns_primary_ip)
+restartServices
+
+# 3. secure 
+# https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04
+# adduser jvbenavi 
+# visudo, replace root w/ jvbenavi ALL
+# vi /etc/ssh/sshd_config
+#  change port 25224
+#  PermitRootLogin no
+#  UseDNS no
+#  AllowUsers demo
+# reload ssh
+user_add_sudo jvbenavi pass2241
+#user_add_pubkey
+ssh_disable_root
+# todo
+# https://www.digitalocean.com/community/articles/how-to-protect-ssh-with-fail2ban-on-ubuntu-12-04
+# https://www.digitalocean.com/community/articles/how-to-install-denyhosts-on-ubuntu-12-04
+
+# 4. file.k6wlr.com 
+# https://www.digitalocean.com/community/articles/how-to-set-up-apache-virtual-hosts-on-ubuntu-12-04-lts
+apache_virtualhost file.k6wlr.com
+
+# 5. wordpress updates
+# https://www.digitalocean.com/community/articles/how-to-configure-secure-updates-and-installations-in-wordpress-on-ubuntu
+# adduser wp-user
+# in data folder: sudo chown -R wp-user:wp-user *
+# sudo su - wp-user
+# ssh-keygen -t rsa -b 4096
+# /home/wp-user/wp_rsa, no password 
+# exit
+#sudo chown wp-user:www-data /home/wp-user/wp_rsa*
+#sudo chmod 0640 /home/wp-user/wp_rsa*
+#sudo mkdir /home/wp-user/.ssh
+#sudo chown wp-user:wp-user /home/wp-user/.ssh/
+#sudo chmod 0700 /home/wp-user/.ssh/
+#sudo cp /home/wp-user/wp_rsa.pub /home/wp-user/.ssh/authorized_keys
+#sudo chown wp-user:wp-user /home/wp-user/.ssh/authorized_keys
+#sudo chmod 0644 /home/wp-user/.ssh/authorized_keys
+# authorized_keys:  from="127.0.0.1" ssh-rsa...
+#sudo apt-get update
+#sudo apt-get install php5-dev libssh2-1-dev libssh2-php
+# wp-config.php
+#define('FTP_PUBKEY','/home/wp-user/wp_rsa.pub');
+#define('FTP_PRIKEY','/home/wp-user/wp_rsa');
+#define('FTP_USER','wp-user');
+#define('FTP_PASS','');
+#define('FTP_HOST','127.0.0.1:22');
+# sudo service apache2 restart
+
+# 6. wp admin changes
+# - choose whatever new theme (2012 theme)
+#  - title, subtitle
+#  - widgets only Pages, Search, Categories
+#  - Menu:
+# - install nextgen gallery, 
+# - install Akismet, jetpack? na
+# - settings:
+#  - timezone, date format, off some comment settings, permalink month/day/name
+# - transfer about, projects pages
+
+# https://www.digitalocean.com/community/articles/how-to-add-swap-on-ubuntu-12-04
+# And $10 1GB upgrade
+# and wp super cache
+
+# needed: a2enmod rewrite for symlinks
+# and this in apache config
+#  <Directory />
+#   Options FollowSymLinks
+#   AllowOverride None
+#  </Directory>
+
