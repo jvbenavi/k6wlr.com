@@ -44,7 +44,7 @@ help:
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '   make ssh_upload                     upload the web site via SSH        '
-    @echo '   make sftp_upload                    upload the web site via SFTP       '
+	@echo '   make sftp_upload                    upload the web site via SFTP       '
 	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '

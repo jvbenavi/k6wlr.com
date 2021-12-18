@@ -14,5 +14,5 @@ namecheap also does registrations ...
 
 Setting up a LAMP + Wordpress server from scratch has been a learning experience and a fun weekend project.  
 
-Useful [scripts]({filename}/pdfs/StackScript.txt) and [notes]({filename}/pdfs/wordpress.txt) for my self.
+Useful [scripts]({static}/pdfs/StackScript.txt) and [notes]({static}/pdfs/wordpress.txt) for my self.
 

@@ -1,9 +1,12 @@
 AUTHOR = 'Jose V. Benavides'
 SITENAME = 'k6wlr.com'
-SITEURL = 'https://k6wlr.com'
+#SITEURL = 'https://k6wlr.com'
+SITEURL = ''
 SITESUBTITLE = 'Fun with technology'
 
-#SUMMARY_MAX_LENGTH = 150
+#THEME = "/home/jvbenavi/r/pelican-octopress-theme"
+
+SUMMARY_MAX_LENGTH = 150
 
 PATH = 'content'
 ARTICLE_PATHS = ['posts']
@@ -20,8 +23,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('NASA', 'http://nasa.gov/'),)
+LINKS = (('NASA', 'https://nasa.gov/'),
+         ('Astrobee', 'https://nasa.gov/astrobee'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/jvbenavi'),

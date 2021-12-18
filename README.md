@@ -16,7 +16,7 @@ conda activate envpelican
 #conda search *
 
 # conda install --name envpelican beautifulsoup4 # not needed? 
-pip install pelican markdown tzlocal
+pip install pelican markdown 
 cd dir
 pelican-quickstart
 '''
