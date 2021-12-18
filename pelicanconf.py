@@ -4,7 +4,8 @@ SITENAME = 'k6wlr.com'
 SITEURL = ''
 SITESUBTITLE = 'Fun with technology'
 
-#THEME = "/home/jvbenavi/r/pelican-octopress-theme"
+THEME = "/home/jvbenavi/r/pelican-themes/notmyidea-cms"
+#THEME = "/home/jvbenavi/r/blog-themes/elegant"
 
 SUMMARY_MAX_LENGTH = 150
 
@@ -29,12 +30,6 @@ LINKS = (('NASA', 'https://nasa.gov/'),
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/jvbenavi'),
           ('github', 'https://github.com/jvbenavi'),)
-
-# octo
-SIDEBAR_IMAGE = 'images/redknight.png'
-SIDEBAR_IMAGE_ALT = "alt text"
-SIDEBAR_IMAGE_WIDTH = 100
-SEARCH_BOX = 'true'
 
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'

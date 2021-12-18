@@ -1,14 +1,18 @@
 Title: About
 Date: 2014-09-03 10:20
-Modified: 2014-09-03 10:30 
+Modified: 2021-12-01 10:30 
 Authors: Jose Benavdes
 Summary: My about page 
 
 ![Alt Text]({static}/images/self.jpg)
 
-Jose is an Engineer with the Advanced Control and Evolvable Systems (ACES) Group in the Intelligent Systems Division at NASA Ames Research Center. Jose is employed by Stinger Ghaffarian Technologies (SGT). He has a bachelors and masters degree from Arizona State University in Electrical Engineering specializing in Control Systems.
+Jose started employment as a contractor at NASA Ames Research Center in 2008 as a member of the Advanced Control and Evolvable Systems (ACES) Group in the Intelligent Systems Division.
 
-Interests Include Embedded Systems, Rapid prototyping of control systems (high-level to low-level code generation and tool chain automation), NextGen air traffic guidance and control, Human-Machine Interaction (HMI), automation, general aircraft/spacecraft control systems, and IVA free-flyers.
+Jose is currently the Project Manager of the NASA International Space Station (ISS) Astrobee Facility project. In conjunction with the prior platform, SPHERES , the Astrobee Facility is one of the most used and popular ISS National Lab Facilities with over 80 on-board test sessions and 400+ hours of Facility Console activities involving crew.
+
+His past projects include rapid prototyping of controls systems using FPGAs, controls-oriented vehicle design of air-breathing hypersonic aircraft, trajectory generation and optimization for tactical flight management systems, pilot-in-the-loop high fidelity 6-dof flight simulation, and small satellite software. His research interests include embedded systems, rapid prototyping of control systems, spacecraft, small satellites, robotics, and human-machine interaction (HMI).
+
+He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include reading, hiking, dancing, and computer networking.
 
 ### Resume ([PDF]({static}/pdfs/resume.pdf)/[TXT]({static}/pdfs/resume.txt)) 
 
