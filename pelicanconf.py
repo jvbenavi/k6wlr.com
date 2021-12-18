@@ -37,8 +37,8 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 MONTH_ARCIVE_SAVE_AS = 'blog/{date:%Y}/{date:%b}/index.html'
-STATIC_PATHS = ['images', 'pdfs', 'static']
-ARTICLE_PATHS = ['posts']
+STATIC_PATHS = ['images', 'static']
+ARTICLE_PATHS = ['articles']
 
 # pelican or elegant defaults? 
 #TAG_SAVE_AS = ""

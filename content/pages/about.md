@@ -14,5 +14,5 @@ His past projects include rapid prototyping of controls systems using FPGAs, con
 
 He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include reading, hiking, dancing, and computer networking.
 
-### Resume ([PDF]({static}/pdfs/resume.pdf)/[TXT]({static}/pdfs/resume.txt)) 
+### Resume ([PDF]({static}/static/resume.pdf)/[TXT]({static}/static/resume.txt)) 
 

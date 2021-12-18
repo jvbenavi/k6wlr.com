@@ -9,7 +9,7 @@ Summary: My more recent projects
 **SPHERES**  
 Engineering management and lead support for SPHERES ISS research facility ([www.nasa.gov/spheres](www.nasa.gov/spheres))
 
-**Tactical Flight Management Systems [(TFMS)]({static}/pdfs/TFMSconcept.pdf)**  
+**Tactical Flight Management Systems [(TFMS)]({static}/static/TFMSconcept.pdf)**  
 pilot-in-the-loop high fidelity 6-dof flight simulation, trajectory generation, optimization, and pilot display for tactical flight management systems (TFMS),
 
 **Hypersonics Guidance & Control**  
@@ -20,5 +20,7 @@ The research focus of the Hypersonics G&C project are:
   
 ![X-43A-cfd]({static}/images/X-43A_Hyper_-_X_CFD.jpg "Title"){width=300}
 
-![X-43A]({static}/images/X43a.jpg "Title"){width=300}
+<p align="center">
+    <img src="{static}/images/X43a.jpg" alt="X-43A" width="300">
+</p>
 
