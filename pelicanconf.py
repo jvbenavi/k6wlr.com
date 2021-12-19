@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = False
 
 # Defaults
 DEFAULT_LANG = 'en'
-STATIC_PATHS = ['images', 'static', 'downloads']
+STATIC_PATHS = ['images', 'static']
 
 USE_FOLDER_AS_CATEGORY = False
 
@@ -41,7 +41,7 @@ ARTICLE_PATHS  = ['articles']
 ARTICLE_URL     = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-PAGE_PATH = ['pages']
+PAGE_PATH = ['']
 PAGE_URL     = "{slug}"
 PAGE_SAVE_AS = "{slug}.html" #'pages/{slug}.html'
 

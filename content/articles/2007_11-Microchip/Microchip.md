@@ -1,8 +1,6 @@
 Title: Microchip
-Date: 2014-09-04 
-Modified: 2014-09-03 
+Date: 2007-11-01 
 Category: Tech
-Authors: Jose Benavides
 Summary: Work done as an intern at Microchip Technology 
 
 ## Microchip:

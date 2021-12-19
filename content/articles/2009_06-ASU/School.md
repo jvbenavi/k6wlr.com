@@ -1,8 +1,6 @@
 Title: School 
-Date: 2014-09-04 
-Modified: 2014-09-03 
+Date: 2009-06-01 
 Category: Tech
-Authors: Jose Benavides
 Summary: A selection of work while in school at ASU 
 
 Here's a selection of work done while in school at Arizona State University 

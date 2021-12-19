@@ -1,7 +1,6 @@
 Title: Hypersonics Projects
-Date: 2014-09-04 
+Date: 2010-12-04 
 Category: NASA
-Modified: 2014-09-03 
 Authors: Jose Benavides
 Summary: NASA Hypersonics projects 
 
