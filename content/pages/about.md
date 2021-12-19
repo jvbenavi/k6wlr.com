@@ -20,3 +20,13 @@ His past projects include rapid prototyping of controls systems using FPGAs, con
 
 He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include reading, hiking, dancing, and computer networking.
 
+Research Engineer  
+Project Manager, Astrobee Facility  
+Advanced Control & Evolvable Systems Group (ACES)  
+Intelligent Systems Division  
+NASA Ames Research Center  
+Bldg N269 Rm 190  
+Mail Stop 269-2  
+Moffett Field, CA 94035  
+Jose.V.Benavides at nasa.gov  
+Callsign: K6WLR  

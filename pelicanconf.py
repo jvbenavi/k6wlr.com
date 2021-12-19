@@ -57,7 +57,7 @@ DIRECT_TEMPLATES = ['index', 'categories', 'tags', 'archives'] # remove 'authors
 #about.md overides root index.html 
 # then place original article index in top menu 
 INDEX_SAVE_AS = 'blog_index.html'
-MENUITEMS = [('Blog','blog_index')]
+MENUITEMS = [('Blog', SITEURL + '/blog_index')]
 
 DISPLAY_CATEGORIES_ON_MENU = True
 
