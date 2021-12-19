@@ -1,7 +1,7 @@
 AUTHOR = 'Jose V. Benavides'
 SITENAME = 'k6wlr.com'
 SITESUBTITLE = 'Fun with technology'
-SITEURL = ''
+SITEURL = ''#'https://k6wlr.com'
 
 PATH = 'content'
 
@@ -31,25 +31,36 @@ DEFAULT_PAGINATION = False
 
 # Defaults
 DEFAULT_LANG = 'en'
+STATIC_PATHS = ['images', 'static']
+
 DEFAULT_CATEGORY = "Misc"
 USE_FOLDER_AS_CATEGORY = True
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
-MONTH_ARCIVE_SAVE_AS = 'blog/{date:%Y}/{date:%b}/index.html'
-STATIC_PATHS = ['images', 'static']
-ARTICLE_PATHS = ['articles']
+
+ARTICLE_PATHS  = ['articles']
+ARTICLE_URL     = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
+PAGE_PATH = ['pages']
+PAGE_URL     = "{slug}"
+PAGE_SAVE_AS = "{slug}.html" #'pages/{slug}.html'
 
 # pelican or elegant defaults? 
+#TAGS_URL = "tags"
+#CATEGORIES_URL = "categories"
+ARCHIVES_URL = "archives"
+#SEARCH_URL = "search"
+
 #TAG_SAVE_AS = ""
 #AUTHOR_SAVE_AS = ""
 #CATEGORY_SAVE_AS = ""
-#PAGE_URL = "{slug}"
-#PAGE_SAVE_AS = "{slug}.html" 'pages/{slug}.html'
-#TAGS_URL = "tags"
-#CATEGORIES_URL = "categories"
-#ARCHIVES_URL = "archives"
-#SEARCH_URL = "search"
+DIRECT_TEMPLATES = ['index', 'categories', 'tags', 'archives'] # remove 'authors'
+
+#about.md overides root index.html 
+# then place original article index in top menu 
+INDEX_SAVE_AS = 'blog_index.html'
+MENUITEMS = [('Blog','blog_index')]
+
+DISPLAY_CATEGORIES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -65,17 +76,12 @@ SOCIAL = (
         ('Twitter', 'https://twitter.com/jvbenavi'),
 )
 
-SUMMARY_MAX_LENGTH = 150
+SUMMARY_MAX_LENGTH = 100
 
 # Blogroll
 LINKS = (('NASA', 'https://nasa.gov/'),
          ('Astrobee', 'https://nasa.gov/astrobee'),)
 
-DISPLAY_CATEGORIES_ON_MENU = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
 # notmyidea mod 
-FAVICON_IMG = 'https://k6wlr.com/share/favicon.ico'
+FAVICON_IMG = '/images/favicon.ico'
 

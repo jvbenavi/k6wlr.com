@@ -1,6 +1,5 @@
 Title: A VPS Experiance 
 Date: 2014-03-31 
-Category: web
 Tags: vps, web, hosting, email
 Slug: vps
 Authors: Jose Benavides

@@ -1,6 +1,5 @@
 Title: BaoFeng UV-5R
 Date: 2014-03-31 
-Category: ham
 Tags: ham, radio
 Slug: BaoFeng
 Authors: Jose Benavides

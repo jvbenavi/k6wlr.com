@@ -1,6 +1,5 @@
 Title: ebooks
 Date: 2014-03-30 
-Category: reading
 Tags: ebooks, books
 Slug: ebooks
 Authors: Jose Benavides
