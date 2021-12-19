@@ -33,7 +33,6 @@ DEFAULT_PAGINATION = False
 DEFAULT_LANG = 'en'
 STATIC_PATHS = ['images', 'static']
 
-DEFAULT_CATEGORY = "Misc"
 USE_FOLDER_AS_CATEGORY = True
 
 ARTICLE_PATHS  = ['articles']
