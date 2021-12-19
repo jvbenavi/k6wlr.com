@@ -33,9 +33,9 @@ DEFAULT_PAGINATION = False
 
 # Defaults
 DEFAULT_LANG = 'en'
-STATIC_PATHS = ['images', 'static']
+STATIC_PATHS = ['images', 'static', 'downloads']
 
-USE_FOLDER_AS_CATEGORY = True
+USE_FOLDER_AS_CATEGORY = False
 
 ARTICLE_PATHS  = ['articles']
 ARTICLE_URL     = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'

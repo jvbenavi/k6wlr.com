@@ -1,6 +1,7 @@
 Title: School 
 Date: 2014-09-04 
 Modified: 2014-09-03 
+Category: Tech
 Authors: Jose Benavides
 Summary: A selection of work while in school at ASU 
 

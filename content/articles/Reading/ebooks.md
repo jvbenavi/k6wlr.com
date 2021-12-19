@@ -1,6 +1,7 @@
 Title: ebooks
 Date: 2014-03-30 
 Tags: ebooks, books
+Category: Reading
 Slug: ebooks
 Authors: Jose Benavides
 Summary: Some Interesting Reading 

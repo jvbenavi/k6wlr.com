@@ -1,6 +1,7 @@
 Title: SPHERES
 Date: 2014-09-04 
 Modified: 2014-09-03 
+Category: NASA 
 Authors: Jose Benavides
 Cover: /images/iss025e013445.jpg 
 Summary: NASA SPHERES projects [![SPHERES Picture]({static}/images/iss025e013445.jpg "SPHERES"){width=100}](https://www.nasa.gov/spheres)
