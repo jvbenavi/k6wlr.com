@@ -5,7 +5,7 @@ Category: Tech
 Slug: BaoFeng
 Authors: Jose Benavides
   
-[![BaoFeng UV-5R with battery]({static}/images/hamRadio.jpg "BaoFeng Title"){width=300}](https://www.google.com)
+[![BaoFeng UV-5R with battery]({attach}hamRadio.jpg "BaoFeng Title"){width=300}](https://www.google.com)
 
 Wow, these are cheap. [BaoFeng UV-5R](http://www.amazon.com/gp/product/B00JB2FOQS)
 
