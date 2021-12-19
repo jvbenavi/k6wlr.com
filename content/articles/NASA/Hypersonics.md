@@ -1,16 +1,10 @@
-Title: Projects
+Title: Hypersonics Projects
 Date: 2014-09-04 
 Modified: 2014-09-03 
-Authors: Jose Benavdes
-Summary: My more recent projects 
+Authors: Jose Benavides
+Summary: NASA Hypersonics projects 
 
-## Past and present projects at NASA include:
-
-**SPHERES**  
-Engineering management and lead support for SPHERES ISS research facility ([www.nasa.gov/spheres](www.nasa.gov/spheres))
-
-**Tactical Flight Management Systems [(TFMS)]({static}/static/TFMSconcept.pdf)**  
-pilot-in-the-loop high fidelity 6-dof flight simulation, trajectory generation, optimization, and pilot display for tactical flight management systems (TFMS),
+## A past project at NASA:
 
 **Hypersonics Guidance & Control**  
 controls-oriented vehicle design of air-breathing hypersonic aircraft,  

@@ -25,7 +25,8 @@ PLUGINS = None
 
 # Appearance
 THEME = "/home/jvbenavi/r/pelican-themes/notmyidea"
-#THEME = "/home/jvbenavi/r/blog-themes/elegant"
+#https://github.com/nairobilug/pelican-alchemy # can have cover's with: 
+#https://alpynepyano.github.io/healthyNumerics/posts/python-pelican-website-with-jupyter-part-1.html
 TYPOGRIFY = True
 DEFAULT_PAGINATION = False
 
@@ -44,8 +45,8 @@ PAGE_URL     = "{slug}"
 PAGE_SAVE_AS = "{slug}.html" #'pages/{slug}.html'
 
 # pelican or elegant defaults? 
-#TAGS_URL = "tags"
-#CATEGORIES_URL = "categories"
+TAGS_URL = "tags"
+CATEGORIES_URL = "categories"
 ARCHIVES_URL = "archives"
 #SEARCH_URL = "search"
 

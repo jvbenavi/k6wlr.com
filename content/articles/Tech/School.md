@@ -1,8 +1,10 @@
-Title: Misc
+Title: School 
 Date: 2014-09-04 
 Modified: 2014-09-03 
-Authors: Jose Benavdes
-Summary: Older projects 
+Authors: Jose Benavides
+Summary: A selection of work while in school at ASU 
+
+Here's a selection of work done while in school at Arizona State University 
 
 ## University Research:
 
@@ -18,7 +20,7 @@ This was a Fulton Undergraduate Research Initiative (FURI) poster project. It's 
 [**Design & Rapid Prototyping of Robust Fault-Tolerant Embedded control Systems Using Field Programmable Gate Arrays (FPGAs)**]({static}/static/Rapid_Poster_v2.pdf)  
 This is my latest poster project that aims to better utilize rapid prototyping tools such as Xilinx System Generator for control system design.
 
-## Class:  
+## Classes:  
 - Neural Networks
 - Linear Systems
 - Nonlinear Systems
@@ -26,23 +28,4 @@ This is my latest poster project that aims to better utilize rapid prototyping t
 - Multivariable Control Systems (MIMO control)  
    Web published Matlab Homework: [MIMO 1]({static}/static/MIMO/HW1.html) | [f_cltfm]({static}/static/MIMO/f_CLTFM.html) | [Puma]({static}/static/MIMO/puma560_jose.html) | [MIMO Midterm]({static}/static/MIMO/Midterm.html)  
 - Optimal Control
-
-## Microchip:
-
-- [Operation of an EUSART]({static}/static/00944A.pdf)  
-   A Microchip Application Note demonstrating the use of a PIC EUSART for serial communication.  
-- [Ultra Low Power Wake Up]({static}/static/00879C.pdf)  
-   A neat new PIC microcontroller peripheral.  
-- Robotics Platform  
-- [Signal Conditioning in the Embedded World]({static}/static/SCE929_V.pdf)  
-   A two hour class taught at the MASTERS conference 2005  
-- [Numerical Methods]({static}/static/1019_NUM_pub_tmp.ppt)  
-   A two hour class taught at the MASTERS conference 2006  
-- [Efficient Fixed-Point Trigonometry Using CORDIC Functions]({static}/static/01061A.pdf)  
-   Application Note  
-- [PID Control]({static}/static/PID_2007.pdf)  
-   A four hour hands on class taught at the MASTERS conference 2007  
-- [PID Inverted Pendulum]({static}/static/00964A.pdf)  
-   Application Note  
-
 
