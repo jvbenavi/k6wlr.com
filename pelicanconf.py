@@ -25,8 +25,9 @@ PLUGINS = None
 
 # Appearance
 THEME = "/home/jvbenavi/r/pelican-themes/notmyidea"
-#https://github.com/nairobilug/pelican-alchemy # can have cover's with: 
+#THEME = "/home/jvbenavi/r/pelican-themes/alchemy" # can have cover's with: 
 #https://alpynepyano.github.io/healthyNumerics/posts/python-pelican-website-with-jupyter-part-1.html
+
 TYPOGRIFY = True
 DEFAULT_PAGINATION = False
 
