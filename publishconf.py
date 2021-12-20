@@ -9,12 +9,8 @@ from pelicanconf import *
 SITEURL = 'https://k6wlr.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-
-DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
-
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""

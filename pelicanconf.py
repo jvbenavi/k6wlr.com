@@ -73,7 +73,6 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (
         ('Linkedin', 'https://www.linkedin.com/in/jose-benavides-a3a1942'),
         ('Github', 'https://github.com/jvbenavi'),
-        ('RSS', SITEURL + '/feeds/all.atom.xml'),
         ('Twitter', 'https://twitter.com/jvbenavi'),
 )
 
