@@ -46,9 +46,9 @@ PAGE_URL     = "{slug}"
 PAGE_SAVE_AS = "{slug}.html" #'pages/{slug}.html'
 
 # pelican or elegant defaults? 
-TAGS_URL = "tags"
-CATEGORIES_URL = "categories"
-ARCHIVES_URL = "archives"
+TAGS_URL = "tags.html"
+CATEGORIES_URL = "categories.html"
+ARCHIVES_URL = "archives.html"
 #SEARCH_URL = "search"
 
 #TAG_SAVE_AS = ""
@@ -59,7 +59,7 @@ DIRECT_TEMPLATES = ['index', 'categories', 'tags', 'archives'] # remove 'authors
 #about.md overides root index.html 
 # then place original article index in top menu 
 INDEX_SAVE_AS = 'blog_index.html'
-MENUITEMS = [('Blog', SITEURL + '/blog_index')]
+MENUITEMS = [('Blog', SITEURL + '/blog_index.html')]
 
 DISPLAY_CATEGORIES_ON_MENU = True
 
