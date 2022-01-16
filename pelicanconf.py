@@ -24,7 +24,7 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = None
 
 # Appearance
-THEME = "/home/jvbenavi/r/pelican-themes/notmyidea"
+THEME = "/home/jvbenavi/r/pelican-themes-notmyidea"
 #THEME = "/home/jvbenavi/r/pelican-themes/alchemy" # can have cover's with: 
 #https://alpynepyano.github.io/healthyNumerics/posts/python-pelican-website-with-jupyter-part-1.html
 
