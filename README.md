@@ -4,24 +4,20 @@ personal website
 
 ## setup 
 
-'''
-install conda 
-conda update conda
-conda create --name envpelican python=3
+  install conda 
+  conda update conda
+  conda create --name envpelican python=3
 
-conda activate envpelican
+  conda activate envpelican
 
-#conda deactivate
-#conda info --envs
-#conda list
-#conda search *
 
-conda install --name envpelican beautifulsoup4 # not needed? 
-pip install pelican markdown 
+  conda install --name envpelican beautifulsoup4 # not needed? 
+  pip install pelican markdown 
 
-'''
+## usefull 
 
-'''
-pelican content
-'''
+  conda deactivate
+  conda info --envs
+  conda list
+  conda search *
 
