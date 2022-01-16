@@ -4,7 +4,7 @@ personal website
 
 ## setup 
 
-'''  
+''' 
   install conda 
   conda update conda
   conda create --name envpelican python=3
@@ -18,10 +18,10 @@ personal website
 
 ## usefull 
 
-'''  
+''' 
   conda deactivate
   conda info --envs
   conda list
   conda search *
-'''  
+''' 
 
