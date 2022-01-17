@@ -2,8 +2,11 @@ Title: Microchip
 Date: 2007-11-01 
 Category: Tech
 Summary: Work done as an intern at Microchip Technology 
+Cover: microchip.png
 
 ## Microchip:
+
+[![Microchip Picture]({attach}microchip.png "Microchip"){width=300}](https://www.microchip.com)
 
 I was an intern at Microchip Technology from 2003 to 2007 and here is some content I helped create while I was there. 
 

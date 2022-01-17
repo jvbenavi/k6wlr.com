@@ -2,7 +2,7 @@ Title: SPHERES
 Date: 2019-09-04 
 Category: NASA 
 Authors: Jose Benavides
-Cover: {attach}iss025e013445.jpg 
+Cover: iss025e013445.jpg 
 Summary: NASA SPHERES projects 
 
 ## A past project at NASA:

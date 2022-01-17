@@ -1,7 +1,10 @@
 Title: School 
 Date: 2009-06-01 
 Category: Tech
-Summary: A selection of work while in school at ASU 
+Summary: A selection of work while in school at Arizona State University 
+Cover: arizona-state-university-logo-vertical.png 
+
+[![ASU Picture]({attach}arizona-state-university-logo-vertical.png "ASU"){width=300}](https://www.asu.edu)
 
 Here's a selection of work done while in school at Arizona State University 
 

@@ -4,6 +4,7 @@ Tags: vps, web, hosting, email
 Category: Tech
 Slug: vps
 Authors: Jose Benavides
+Summary: My first experience with a VPS
 
 My first experience with a VPS has been interesting.
 
