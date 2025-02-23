@@ -43,3 +43,4 @@ publish
 rsync
 	rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/output/ k6wlr.com:/var/www/k6wlr.com/public_html
 
+
