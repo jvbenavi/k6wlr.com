@@ -10,7 +10,7 @@ personal website
   conda create --name envpelican python=3
   conda activate envpelican
   conda install --name envpelican beautifulsoup4 
-  pip install pelican markdown 
+  pip install pelican markdown typogrify smartypants 
 ```
 
 Also usefull: 
@@ -20,27 +20,25 @@ Also usefull:
   conda info --envs
   conda list
   conda search *
-```
-
-## setup 2
-
-```
-pkg install py38-pelican 
-
+  conda env export > environment.yml
+  conda env create -f environment.yml
 ```
 
 ## make 
 
-html 
+html  
     pelican ~/r/k6wlr.com/content -o ~/r/k6wlr.com/output -s ~/r/k6wlr.com/pelicanconf.py 
 
-serve
-    pelican ~/r/k6wlr.com/content -l ~/r/k6wlr.com/output -s ~/r/k6wlr.com/publishconf.py -b 0.0.0.0
+serve  
+    #pelican ~/r/k6wlr.com/content -l ~/r/k6wlr.com/output -s ~/r/k6wlr.com/publishconf.py -b 0.0.0.0
+    pelican --listen -b 0.0.0.0
 
-publish
+publish  
     pelican ~/r/k6wlr.com/content -o ~/r/k6wlr.com/output -s ~/r/k6wlr.com/publishconf.py 
 
-rsync
-	rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/output/ k6wlr.com:/var/www/k6wlr.com/public_html
+rsync  
+    rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/output/ k6wlr.com:/var/www/k6wlr.com/public_html
+
+
 
 
