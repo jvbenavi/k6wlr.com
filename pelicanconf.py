@@ -30,6 +30,7 @@ PLUGINS = None
 
 # Appearance
 THEME = "/home/jvbenavi/r/pelican-alchemy/alchemy"
+#THEME = "simple"
 
 TYPOGRIFY = True
 DEFAULT_PAGINATION = False
@@ -64,7 +65,6 @@ AUTHOR_FEED_RSS = None
 ICONS = (
         ('linkedin', 'https://www.linkedin.com/in/jose-benavides-a3a1942'),
         ('github', 'https://github.com/jvbenavi'),
-        ('twitter', 'https://twitter.com/jvbenavi'),
 )
 
 SUMMARY_MAX_LENGTH = 100
