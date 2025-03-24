@@ -17,6 +17,6 @@ Jose is currently the Project Manager of the NASA International Space Station (I
 
 His past projects include rapid prototyping of controls systems using FPGAs, controls-oriented vehicle design of air-breathing hypersonic aircraft, trajectory generation and optimization for tactical flight management systems, pilot-in-the-loop high fidelity 6-dof flight simulation, and small satellite software. His research interests include embedded systems, rapid prototyping of control systems, spacecraft, small satellites, robotics, and human-machine interaction (HMI).
 
-He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include making, reading, and computer techology.
+He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include making, reading, and computer techology..
 
 Callsign: K6WLR 
