@@ -4,14 +4,14 @@ PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/../k6wlr.com
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 SSH_HOST=k6wlr.com
 SSH_PORT=22
-SSH_USER=jvbenavi
-SSH_TARGET_DIR=/var/www/k6wlr.com/public_html
+SSH_USER=user01  
+SSH_TARGET_DIR=~/k6wlr.com
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)

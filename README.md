@@ -27,17 +27,24 @@ Also usefull:
 ## make 
 
 html  
-    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py 
+```
+    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py  
+```
 
 serve  
-    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py -l -b 0.0.0.0
+```
+    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py -l -b 0.0.0.0  
+```
 
 publish  
-    pelican ~/r/k6wlr.com/content -o ~/r/k6wlr.com/output -s ~/r/k6wlr.com/publishconf.py 
+```
+    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/publishconf.py  
+```
 
-rsync  
-    rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/output/ k6wlr.com:/var/www/k6wlr.com/public_html
+rsync_upload  
+```
+    rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/ k6wlr.com:~/k6wlr.com  
+```
 
-
-
+devserver  
 

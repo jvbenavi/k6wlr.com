@@ -1,7 +1,11 @@
 AUTHOR = 'Jose V. Benavides'
 SITENAME = 'k6wlr.com'
 SITESUBTITLE = 'Fun with technology'
-SITEURL = ''#'https://k6wlr.com'
+
+SITEURL = 'https://k6wlr.com'
+
+# can be useful in development, but set to False when you're ready to publish
+RELATIVE_URLS = True
 
 SITEIMAGE = '/images/astrobee.svg width=200 height=200'
 #SITEIMAGE = '/images/robot.svg width=200 height=200'
