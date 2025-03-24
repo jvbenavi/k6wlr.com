@@ -26,25 +26,20 @@ Also usefull:
 
 ## make 
 
-html  
-```
-    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py  
-```
-
-serve  
+serve-global  
 ```
     pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py -l -b 0.0.0.0  
 ```
 
+devserver-global  
+
 publish  
-```
-    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/publishconf.py  
-```
 
 rsync_upload  
-```
-    rsync -e "ssh -p 22" -P -rvzc --include tags --cvs-exclude --delete ~/r/k6wlr.com/ k6wlr.com:~/k6wlr.com  
-```
 
-devserver  
+## dup to github
+
+1. update SITEURL
+2. make publish
+3. cd ../jvbenavi.github.io; git add/commit/push
 

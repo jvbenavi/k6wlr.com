@@ -1,8 +1,9 @@
 AUTHOR = 'Jose V. Benavides'
-SITENAME = 'k6wlr.com'
+SITENAME = 'k6wlr'
 SITESUBTITLE = 'Fun with technology'
 
 SITEURL = 'https://k6wlr.com'
+#SITEURL = 'https://jvbenavi.github.io'
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
