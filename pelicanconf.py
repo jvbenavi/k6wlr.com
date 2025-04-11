@@ -16,7 +16,7 @@ DESCRIPTION = 'A personal blog page'
 PATH = 'content'
 
 # Regional settings
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/Phoenix'
 
 # Plugins and extentions
 MARKDOWN = {
@@ -44,6 +44,10 @@ DEFAULT_PAGINATION = False
 DEFAULT_LANG = 'en'
 STATIC_PATHS = ['images', 'static']
 
+EXTRA_PATH_METADATA = {
+    'static/robots.txt': {'path': 'robots.txt'},
+    }
+
 USE_FOLDER_AS_CATEGORY = False
 
 ARTICLE_PATHS  = ['articles']
@@ -58,7 +62,9 @@ TAGS_URL = "tags.html"
 CATEGORIES_URL = "categories.html"
 ARCHIVES_URL = "archives.html"
 
-DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives'] # remove 'authors'
+# Default value is ['index', 'tags', 'categories', 'authors', 'archives']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives', 'sitemap'] # remove 'authors', add 'sitemap'
+SITEMAP_SAVE_AS = 'sitemap.xml'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

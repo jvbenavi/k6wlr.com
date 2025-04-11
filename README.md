@@ -26,16 +26,18 @@ Also usefull:
 
 ## make 
 
-serve-global  
+html: (re)generate the web site  
+
+publish: generate sring production settings  
+
+serve-global: serve (as root) to "0.0.0.0":8000  
 ```
     pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py -l -b 0.0.0.0  
 ```
 
-devserver-global  
+devserver-global: regenerate and serve on 0.0.0.0:8000  
 
-publish  
-
-rsync_upload  
+rsync_upload: upload the web site via rsync+ssh  
 
 ## dup to github
 
