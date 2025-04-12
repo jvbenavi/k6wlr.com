@@ -16,7 +16,7 @@ Former Project Manager for Astrobee ISS research facility ([www.nasa.gov/astrobe
 
 ## ISAAC Astrobee Panoramas Tour
 
-<a href="/static/isaac/pannellum.html#config=tour.json">[Start exploring here]</a>
+<a href="https://astrobee.xyz/pannellum.html#config=tour.json">[Start exploring here]</a>
 
 ## Links  
 
