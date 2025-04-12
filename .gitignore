@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 content/static/isaac/
+.DS_Store
 
