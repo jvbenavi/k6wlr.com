@@ -1,8 +1,11 @@
+Title: projects
+Date: 2025-04
+Authors: Jose V. Benavides
+Summary: projects summary 
+status: hidden
 
-learning javascript:
+This is a personal blog, sketch pad, and fun corner of the internet for me to document my side adventures. 
 
-2d.html https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
+## Projects
 
-3d.html babylon.js
-
-game.html https://github.com/ehmorris/lunar-lander https://students.cs.ucl.ac.uk/schoolslab/projects/HT5/index.html
+link to other "pages" that are also hidden

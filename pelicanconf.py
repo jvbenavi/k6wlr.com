@@ -82,6 +82,7 @@ SUMMARY_MAX_LENGTH = 100
 
 # Blogroll
 LINKS = (('NASA', 'https://nasa.gov/'),
+         ('ASR', 'https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotics'),
          ('Astrobee', 'https://nasa.gov/astrobee'),)
 
 HIDE_AUTHORS = True

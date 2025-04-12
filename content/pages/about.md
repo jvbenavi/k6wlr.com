@@ -1,6 +1,6 @@
-Title: About
-Date: 2014-09 
-Authors: Jose V. Benavdes
+Title: About/Bio
+Date: 2025-04
+Authors: Jose V. Benavides
 Summary: About page 
 
 ![self cartoon]({static}/images/redknight.png "self cartoon"){width=100}
@@ -20,3 +20,7 @@ His past projects include rapid prototyping of controls systems using FPGAs, con
 He has a bachelors and masters degree from Arizona State University in Electrical Engineering, with specialization in control systems. His hobbies include making, reading, and computer techology..
 
 Callsign: K6WLR 
+
+## Resume
+
+link resume
