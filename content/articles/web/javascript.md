@@ -1,15 +1,10 @@
-Title: Web Projects
-Date: 2024-12
-Authors: Jose V. Benavdes
-Summary: Web Projects page 
+Title: Learning JavaScript
+Date: 2020-04
+Authors: Jose V. Benavides
+Summary: side project of learning JavaScript
 
-# Pelican site generator
+# learning JavaScript  
 
-link 
-
-# learning javascript:
-
-2d.html  
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
 
 3d.html  
@@ -17,5 +12,4 @@ babylon.js
 
 game.html  
 https://github.com/ehmorris/lunar-lander https://students.cs.ucl.ac.uk/schoolslab/projects/HT5/index.html
-
 
