@@ -48,7 +48,7 @@ EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
     }
 
-USE_FOLDER_AS_CATEGORY = False
+USE_FOLDER_AS_CATEGORY = True
 
 ARTICLE_PATHS  = ['articles']
 ARTICLE_URL     = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
