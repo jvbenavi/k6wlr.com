@@ -2,6 +2,7 @@ Title: TFMS
 Date: 2012-09
 Summary: Tactical Flight Management System (TFMS) project 
 Tags: NASA
+Category: Working
 Cover: 777-cockpit.jpg 
 
 <center>

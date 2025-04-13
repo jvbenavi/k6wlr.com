@@ -2,6 +2,7 @@ Title: A VPS Experiance
 Date: 2014-03-31 
 Tags: vps, web, hosting, email
 Slug: vps
+Category: Geeking
 Authors: Jose V. Benavides
 Summary: My first experience with a VPS
 
