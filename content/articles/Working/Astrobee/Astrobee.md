@@ -1,7 +1,8 @@
 Title: Astrobee
 Date: 2025-04-04 
-Category: NASA 
+Category: Working
 Summary: NASA Astrobee projects 
+Tags: NASA, Astrobee
 Cover: anne_mcclain_astrobee.png
 
 ## A project at NASA:

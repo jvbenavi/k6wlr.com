@@ -1,8 +1,9 @@
 Title: Microchip
 Date: 2007-11-01 
-Category: Tech
+Category: Working
 Summary: Work done as an intern at Microchip Technology 
 Cover: microchip.png
+Tags: Working, Embedded, EE
 
 ## Microchip:
 

@@ -1,9 +1,10 @@
 Title: Hypersonics Projects
 Date: 2010-12-04 
-Category: NASA
-Authors: Jose Benavides
+Category: Working
+Authors: Jose V. Benavides
 Summary: NASA Hypersonics projects 
 Cover: X-43A_Hyper_-_X_CFD.jpg 
+Tags: NASA, 
 
 <center>
 ![X-43A-cfd]({attach}X-43A_Hyper_-_X_CFD.jpg "Title"){width=300}

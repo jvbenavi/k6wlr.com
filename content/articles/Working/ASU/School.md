@@ -1,7 +1,8 @@
-Title: School 
+Title: University
 Date: 2009-06-01 
-Category: Tech
+Category: Working
 Summary: A selection of work while in school at Arizona State University 
+Tags: Working, Learning, ASU
 Cover: arizona-state-university-logo-vertical.png 
 
 [![ASU Picture]({attach}arizona-state-university-logo-vertical.png "ASU"){width=300}](https://www.asu.edu)
