@@ -1,9 +1,8 @@
 Title: A VPS Experiance 
 Date: 2014-03-31 
 Tags: vps, web, hosting, email
-Category: Tech
 Slug: vps
-Authors: Jose Benavides
+Authors: Jose V. Benavides
 Summary: My first experience with a VPS
 
 My first experience with a VPS has been interesting.

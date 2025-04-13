@@ -1,6 +1,5 @@
 Title: Heater 
 Date: 2022-01 
-Category: Make
 Summary: Making a budget alcohol jet burner for the garage 
 Cover: 2022-01-03-Alcohol-Jet-Burner-Feat.webp 
 

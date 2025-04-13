@@ -3,7 +3,7 @@ Date: 2014-03-31
 Tags: ham, radio
 Category: Tech
 Slug: BaoFeng
-Authors: Jose Benavides
+Authors: Jose V. Benavides
 Summary: My first ham radio 
 Cover: hamRadio.jpg 
 
