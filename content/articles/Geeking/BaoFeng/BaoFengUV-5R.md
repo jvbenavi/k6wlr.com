@@ -1,7 +1,7 @@
 Title: BaoFeng UV-5R
 Date: 2014-03-31 
 Tags: ham, radio
-Category: Tech
+Category: Geeking
 Slug: BaoFeng
 Authors: Jose V. Benavides
 Summary: My first ham radio 
