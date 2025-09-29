@@ -24,6 +24,10 @@ Also usefull:
   conda env create -f environment.yml
 ```
 
+Also usefull: virtualenv venv 
+
+- note: conda not so full on mac-arm
+
 ## make 
 
 html: (re)generate the web site  

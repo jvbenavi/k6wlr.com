@@ -34,7 +34,7 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = None
 
 # Appearance
-THEME = "/home/jvbenavi/r/pelican-alchemy/alchemy"
+THEME = "../pelican-alchemy/alchemy"
 #THEME = "simple"
 
 TYPOGRIFY = True
