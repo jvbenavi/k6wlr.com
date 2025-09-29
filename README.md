@@ -24,7 +24,17 @@ Also usefull:
   conda env create -f environment.yml
 ```
 
-Also usefull: virtualenv venv 
+Also usefull: virtualenv 
+
+```
+  virtualenv ~/virtualenvs/pelican
+  cd ~/virtualenvs/pelican
+  source bin/activate
+  python -m pip install "pelican[markdown]"
+  python -m pip install "beautifulsoup4 typogrify pytz"
+  pip freeze > requirements.txt
+  pip install -r requirements.txt
+```
 
 - note: conda not so full on mac-arm
 
@@ -32,14 +42,9 @@ Also usefull: virtualenv venv
 
 html: (re)generate the web site  
 
-publish: generate sring production settings  
-
-serve-global: serve (as root) to "0.0.0.0":8000  
-```
-    pelican ~/r/k6wlr-source/content -o ~/r/k6wlr.com -s ~/r/k6wlr-source/pelicanconf.py -l -b 0.0.0.0  
-```
-
 devserver-global: regenerate and serve on 0.0.0.0:8000  
+
+publish: generate useing production settings  
 
 rsync_upload: upload the web site via rsync+ssh  
 

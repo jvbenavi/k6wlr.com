@@ -1,5 +1,5 @@
 Title: About/Bio
-Date: 2025-04
+Date: 2025-09
 Authors: Jose V. Benavides
 Summary: About page 
 
@@ -23,4 +23,4 @@ Callsign: K6WLR
 
 ## Resume
 
-link resume
+test link resume 

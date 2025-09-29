@@ -90,3 +90,4 @@ HIDE_AUTHORS = True
 # theme mod
 FAVICON_IMG = '/images/favicon.ico'
 
+# STATIC_CHECK_IF_MODIFIED = True
