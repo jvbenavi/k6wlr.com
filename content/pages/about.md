@@ -23,4 +23,4 @@ Callsign: K6WLR
 
 ## Resume
 
-test link resume 
+test link resume, test2

@@ -131,7 +131,3 @@ dmypy.json
 .DS_Store
 content/.obsidian/
 
-# isaac files too big for puting in repo
-content/static/isaac/
-static/isaac/
-
