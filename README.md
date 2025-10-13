@@ -36,7 +36,7 @@ Also usefull: virtualenv
   pip install -r requirements.txt
 ```
 
-- note: conda not so full on mac-arm
+- note: conda not as fully supported on mac-arm
 
 ## make 
 

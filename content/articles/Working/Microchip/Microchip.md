@@ -1,9 +1,10 @@
 Title: Microchip
 Date: 2007-11-01 
+Tags: Working, Embedded, EE
 Category: Working
+Authors: Jose V. Benavides
 Summary: Work done as an intern at Microchip Technology 
 Cover: microchip.png
-Tags: Working, Embedded, EE
 
 ## Microchip:
 

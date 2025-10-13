@@ -7,9 +7,7 @@ Authors: Jose V. Benavides
 Summary: My first ham radio 
 Cover: hamRadio.jpg 
 
-<center>
 [![BaoFeng UV-5R with battery]({attach}hamRadio.jpg "BaoFeng Title"){width=300}](https://www.google.com)
-</center>
 
 Wow, these are cheap. [BaoFeng UV-5R](http://www.amazon.com/gp/product/B00JB2FOQS)
 

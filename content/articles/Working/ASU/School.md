@@ -1,8 +1,9 @@
 Title: University
 Date: 2009-06-01 
-Category: Working
-Summary: A selection of work while in school at Arizona State University 
 Tags: Working, Learning, ASU
+Category: Working
+Authors: Jose V. Benavides
+Summary: A selection of work while in school at Arizona State University 
 Cover: arizona-state-university-logo-vertical.png 
 
 [![ASU Picture]({attach}arizona-state-university-logo-vertical.png "ASU"){width=300}](https://www.asu.edu)
