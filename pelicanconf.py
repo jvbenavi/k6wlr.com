@@ -35,7 +35,6 @@ PLUGINS = None
 
 # Appearance
 THEME = "../pelican-alchemy/alchemy"
-#THEME = "simple"
 #THEME = "notmyidea"
 
 TYPOGRIFY = True
@@ -66,8 +65,10 @@ ARCHIVES_URL = "archives.html"
 INDEX_SAVE_AS = 'blog.html' # this requires another page to have: "save_as: index.html" and "URL: "
 
 # Default value is ['index', 'tags', 'categories', 'authors', 'archives']
-DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives', 'sitemap'] # remove 'authors', add 'sitemap'
-SITEMAP_SAVE_AS = 'sitemap.xml'
+# notmyidea working value is ['index', 'tags', 'categories', 'archives']
+# Alchemy value is ['index', 'tags', 'categories', 'archives', 'sitemap'] # add 'sitemap'
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives', 'sitemap'] 
+SITEMAP_SAVE_AS = 'sitemap.xml' # used in Alchemy
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
