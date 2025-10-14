@@ -3,6 +3,5 @@ Date: 2025-04
 Authors: Jose V. Benavides
 Summary: Resume page
 
-## Resume
+insert resume here
 
-link resume

@@ -1,5 +1,6 @@
 Title: Learning JavaScript
 Date: 2020-04
+Category: Geeking
 Authors: Jose V. Benavides
 Summary: side project of learning JavaScript
 

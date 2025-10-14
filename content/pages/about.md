@@ -1,13 +1,18 @@
-Title: About/Bio
-Date: 2025-09
+Title: About & Bio
+Date: 2025-10
+Modified: 2025-10-13 13:00
+Tags:
+Category:
 Authors: Jose V. Benavides
-Summary: About page 
+Summary: About and Bio Page
+Cover:
+Status: published
+save_as: index.html
+URL:
 
 ![self cartoon]({static}/images/redknight.png "self cartoon"){width=100}
 
-This is a personal blog, sketch pad, and fun corner of the internet for me to document my side adventures. 
-
-## Bio 
+This is a personal blog, sketch pad, and fun corner of the internet for me to document my side adventures. Full blog/article listing [here]({index}/blog.html).  
 
 ![Alt Text]({static}/images/benavides_jose_for_bio.jpg)
 
@@ -21,6 +26,5 @@ He has a bachelors and masters degree from Arizona State University in Electrica
 
 Callsign: K6WLR 
 
-## Resume
+[Full ]({filename}resume.md)[Resume]({filename}/pages/resume.md)  
 
-test link resume, test2

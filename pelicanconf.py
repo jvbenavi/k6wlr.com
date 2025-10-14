@@ -36,6 +36,7 @@ PLUGINS = None
 # Appearance
 THEME = "../pelican-alchemy/alchemy"
 #THEME = "simple"
+#THEME = "notmyidea"
 
 TYPOGRIFY = True
 DEFAULT_PAGINATION = False
@@ -55,12 +56,14 @@ ARTICLE_URL     = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 PAGE_PATHS   = ['pages']
-PAGE_URL     = "{slug}.html"
-PAGE_SAVE_AS = "{slug}.html" #'pages/{slug}.html'
+PAGE_URL     = "pages/{slug}.html" #'{slug}.html' (both same)
+PAGE_SAVE_AS = "pages/{slug}.html" #'pages/{slug}.html' (both same)
 
 TAGS_URL = "tags.html"
 CATEGORIES_URL = "categories.html"
 ARCHIVES_URL = "archives.html"
+
+INDEX_SAVE_AS = 'blog.html' # this requires another page to have: "save_as: index.html" and "URL: "
 
 # Default value is ['index', 'tags', 'categories', 'authors', 'archives']
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives', 'sitemap'] # remove 'authors', add 'sitemap'
@@ -83,7 +86,7 @@ SUMMARY_MAX_LENGTH = 100
 # Blogroll
 LINKS = (('NASA', 'https://nasa.gov/'),
          ('ASR', 'https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotics'),
-         ('Astrobee', 'https://nasa.gov/astrobee'),)
+         )
 
 HIDE_AUTHORS = True
 
