@@ -8,6 +8,9 @@ from pelicanconf import *
 
 RELATIVE_URLS = False
 
+SITEURL = 'https://k6wlr.com'
+#SITEURL = 'https://jvbenavi.github.io'
+
 #DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing

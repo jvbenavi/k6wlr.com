@@ -30,7 +30,7 @@ A list
 - List item three  
     - List sub item  
 
-linking to internal content [a link relative to the current root]({filename}/Working/Microchip/microchip.md)
+linking to internal content [a link relative to the current root]({filename}/articles/Working/Microchip/Microchip.md)
 
 Links to static content, two Gutenberg ebooks: [math]({static}/static/ebook_math/16713-h.htm), [jokes]({static}/static/ebook_jokes/21084-h.htm)  
 

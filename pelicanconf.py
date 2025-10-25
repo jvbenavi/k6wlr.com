@@ -1,9 +1,8 @@
 AUTHOR = 'Jose V. Benavides'
 SITENAME = 'k6wlr'
-SITESUBTITLE = 'Fun with technology'
+SITESUBTITLE = 'Fun with technology. This is a personal blog, sketch pad, and fun corner of the internet to document my side adventures.'
 
-SITEURL = 'https://k6wlr.com'
-#SITEURL = 'https://jvbenavi.github.io'
+SITEURL = '' # this is now set in publishconf
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
@@ -11,7 +10,7 @@ RELATIVE_URLS = True
 SITEIMAGE = '/images/astrobee.svg width=200 height=200'
 #SITEIMAGE = '/images/robot.svg width=200 height=200'
 #SITEIMAGE = '/images/astrobee2.svg width=300 height=300'
-DESCRIPTION = 'A personal blog page'
+DESCRIPTION = 'A personal blog'
 
 PATH = 'content'
 
@@ -62,7 +61,7 @@ TAGS_URL = "tags.html"
 CATEGORIES_URL = "categories.html"
 ARCHIVES_URL = "archives.html"
 
-INDEX_SAVE_AS = 'blog.html' # this requires another page to have: "save_as: index.html" and "URL: "
+#INDEX_SAVE_AS = 'blog.html' # this requires another page to have: "save_as: index.html" and "URL: "
 
 # Default value is ['index', 'tags', 'categories', 'authors', 'archives']
 # notmyidea working value is ['index', 'tags', 'categories', 'archives']
