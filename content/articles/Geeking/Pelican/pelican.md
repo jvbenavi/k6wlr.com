@@ -13,7 +13,7 @@ Status: published
 [![Pelican picture]({attach}logo-Pelican.svg "Pelican"){width=200}](https://getpelican.com)
 
 This is the why and how of my Pelican home page.
-My site uses the Pelican static site generator and has since 2018. This page is also intended to be a template for how to excersice important features of Pelican for future self reference.  
+My site uses the Pelican static site generator and has since 2018. This page is also intended to be a template for how to exercise important features of Pelican for future self reference.  
 
 Good reference: [Pelican Docs](https://docs.getpelican.com/en/latest/content.html)  
 
