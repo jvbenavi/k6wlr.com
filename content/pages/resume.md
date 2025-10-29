@@ -3,10 +3,12 @@ Date: 2025-04
 Authors: Jose V. Benavides
 Summary: Resume page
 
-## Summary
+## Summary, Jose V. Benavides
 
-- I am an innovative professional with over 20 years of multidisciplinary experience in robotics, aeronautics, and space systems. I have hands-on experience working with internal and external cross-functional teams spanning foundational research to real-time operations. 
-- Email: Jose.V.Benavides@k6wlr.com Location: Chandler, AZ
+Innovative and results-oriented professional with over 20 years of experience in embedded systems, robotics, aeronautics, and space systems. Proven ability to lead cross-functional teams in both research and operational environments. Adept at managing complex projects from conception to completion.
+
+**Contact:** Jose.V.Benavides@k6wlr.com | Chandler, AZ
+
 
 ## Experience:
 
