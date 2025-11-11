@@ -1,4 +1,4 @@
-Title: Resume
+Title: CV/Resume
 Date: 2025-04
 Authors: Jose V. Benavides
 Summary: Resume page
@@ -7,32 +7,49 @@ Summary: Resume page
 
 Innovative and results-oriented professional with over 20 years of experience in embedded systems, robotics, aeronautics, and space systems. Proven ability to lead cross-functional teams in both research and operational environments. Adept at managing complex projects from conception to completion.
 
-**Contact:** Jose.V.Benavides@k6wlr.com | Chandler, AZ
+**Contact:** Jose.V.Benavides@NASA.gov | NASA Ames Research Center, Intelligent Systems Division | Mountain View, CA
+**Personal:** Jose.V.Benavides@k6wlr.com | Chandler, AZ  
+**Short Resume:** PDF/TXT
 
 ## Experience
 
-### IBM Co-op Summer 2002, Tuscon, AZ
+### NASA Ames Research Center - Computer Engineer 
+*July 2018 - Current, Mountain View, CA*
 
-- Supported the maintenance, configuration, modification, installation, test, and operation of IBM Enterprise Storage Server (ESS) mainframe computer systems
-- Operated Unix/AIX data systems
+In the years I’ve been a civil servant at NASA Ames, I’ve consistently been evaluated as “Substantively Exceeds Expectations”. I have continued to manage the Astrobee Facility project. Astrobee is a free-flying robotic platform for conducting Intra-Vehicular Activities (IVA) inside of ISS. The Astrobee Facility is an important shared platform on ISS for conducting both fundamental research (i.e., fluidic sloshing dynamics) and higher TRL level technology development needed for deep space exploration. It is a project tasked primarily with maintaining and sustaining this platform in the service of its various users. This also includes providing training and integration support in both the technical development and the overall ISS Program Payload integration process. The many Astrobee users come from academia, government, and private industry.
 
-### IBM Co-op Summer 2006 & 2007, Austin, TX
+- We have been responsive to Payload Developer schedules for On-orbit Test Sessions. Some delays have resulted from planning product development and crew time shortages, but we've adapted to meet user expectations.
+- Project costs were within expectations for FY2023.
+- Supported users include the following:
+    - MIT with three investigations: SPHERES-Reswarm, ROAM, and Zero Robotics.
+    - JAXA with a joint Astrobee and Int-Ball free flyer activity on ISS in 2021, Kibo Robotic Programing Challenge (Kibo-RPC-2) (midway through year 3)
+    - Astrobotic Inc./Bosch with SoundSee on Astrobee
+    - Naval Post Graduate School with Astrobatics on Astrobee
+    - Stanford with the Gecko-Inspired Astrobee gripper
+    - NASA-AES Logistics Reduction REALM-2 with RFID scanner on Astrobee
+    - NASA's ISAAC STMD project
+    - FIT’s SVGS vision navigation project
+    - SOARS
+    - Cubee/CLING
 
-- Power 7 VMX/Altivec Performance Verification
-- Supported industry leading Power 7 servers for data handling and computing
-- Power 6 Server Software and Firmware Bring-up installation and test
-- Worked on improving processes and establishing procedures for Co-op training and on-boarding
-- Participated in computer engineering Co-op mentorship program
+- New Business/development
+  - I've led the Astrobee network communications pipeline integration and testing. This has involved coordinating requirements, testing, server administration, and scheduling ISS program services. In this POP, we’ve assessed a new, hardware-in-the-loop testing capability utilizing an ISS Program tool call RAPTR.
+  - Coordinated integration with the ISS Imagery Working Group to ensure proper video routing and archiving for Astrobee operations
+  - Actively support Astrobee test session operations with activity logging, telemetry monitoring, answering questions, procedure tracking, time-line monitoring
+  - Tracking updates to the Astrobee Interface Control Document (ICD) or Guest Scientist Guide document (GSP)
+  - coordinating a new Astrobee payload called SOARS. It's an STTR funded effort to research fluid transfer mechanisms in micro-gravity.
 
-### Microchip Technology Inc. Intern 2003 – 2007, Chandler, AZ
+- SBIR/STTR work
+  - I Oversee multiple phase I's and phase II's SBIR contracts as Techincal Monitor or COR
+  - I am the "Z5.04 Technologies for Intra-Vehicular Activity Robotics" Topic and Subtopic Manager in 2020, 2021, 2022, and 2023
+  - I successfully completed the SBIR phase 1 and phase 2 reviews for 2023.
 
-- Built, debugged, executed, and analyzed microcontroller test setup data resulting in a significant design win
-- Authored three published application articles demonstrating the use of Microchip products for embedded systems development (involving both hardware and software)
-- Developed and taught short courses on embedded systems signal conditioning and embedded feedback systems at Microchip 05 & 07 Technology Conferences
-- As lead applications intern, I mentored three other interns in software development
-- Accepted the lead in the planning, design, analysis, development, and test of a microcontroller data acquisition system for ESD robustness testing utilizing high voltage instruments. This project also involved acquiring, reducing, computing, and producing statistical data products that highlighted product performance
+As a project manager, I’ve gained the experience and skills needed for supervising employees, identifying strategic objectives, defining, and assigning work/milestones, evaluating accomplishments, and recommending employee recognition. I feel strongly that I’ve frequently and consistently demonstrated the competencies of Planning, Problem Solving, Teamwork, General Engineering, Project Management, Technical Competence, Technical Management, and Leadership.
 
-### MCT Inc., Engineer III, Jan 2008 – Sept. 2011, Mountain View, CA
+
+
+### MCT Inc./SGT Inc./IHMC - Research Engineer, NASA Contractor
+*January 2008 – June 2018 |  Mountain View, CA*
 
 In 2008, I joined the NASA Ames Research Center Adaptive Control and Evolvable Systems (ACES) group as a contractor for MCT Inc. This NASA Ames (ACES) group is under the Intelligent Systems Division (Code TI) of the Exploration Technology Directorate. The primary focus of the NASA Ames (ACES) group is on fundamental and applied research and technology development in the field of intelligent adaptive systems. Additionally, ACES conducts research, develops, implements, tests, and delivers next-generation control architectures and avionics hardware. The core competency within the group spans across various intelligent guidance, navigation, and control technologies as well as avionics hardware and software system disciplines. ACES conducts foundational and applied research in adaptive, robust, and optimal control, trajectory guidance and planning, avionics architectures and processes, and evolvable systems towards automated design.
 
@@ -48,14 +65,6 @@ Completed tasks include:
 - Reverse engineered and re-implemented the flight mechanics of a high-fidelity take-off to landing general transport flight simulator called FLTz
 - Validated and debugged engineering code for computation of aerodynamic, structural, and engine dynamics
 - Researched and implemented various control system architectures to generated HRRLS non-linear model
-
-### MCT Inc., Engineer III, Oct 2011 – Nov. 2013, Mountain View, CA
-
-In November of 2013, a contract employer transition was made from MCT Inc. to SGT Inc. However, the nature of the work did not change. Please see the job description below.
-
-### SGT Inc., Research Engineer III, Nov 2013 – Nov 2014, Mountain View, CA
-
-From 2011 to 2014, I split my time between two projects, TFMS and SPHERES.
 
 The Tactical Guidance System subtask is directed at developing and evaluating Tactical Flight Management System (T-FMS) technologies that incorporate guidance planning concepts to improve the resiliency and robustness of Trajectory Based Operations (TBO) when operating: (1) in the highly constrained and dynamic environment of the next generation air transportation system (NextGen); and (2) under damaged and/or failure conditions that result in reduce flight and maneuvering envelope constraints. Improvements have been evaluated in terms of improved constraint compliance, reduced occurrences of mode confusion, and increased situational awareness of what the automation is doing now and what it is going to do in the future. T-FMS is an example of an advisory and decision support systems.
 
@@ -92,9 +101,7 @@ I am ultimately responsible for the following tasks;
 
 In July of 2013, I became the Engineering Manager for the for the International Space Station SPHERES National Laboratory. This management position involved leading a team of five engineers responsible for maintaining the SPHERES Facility.
 
-### IHMC, Research Engineer, Nov 2014 – Jun. 2015, Mountain View, CA
-
-I became a NASA Ames IPA. My responsibilities were as follows:
+I became a NASA Ames IPA in Nov. 2014. My responsibilities were as follows:
 
 - Provided engineering leadership for the NASA ISS SPHERES Facility
 - Formulated agency-wide initiatives (including defining requirements) for small-satellites and/or robotic free-flyer missions
@@ -145,41 +152,34 @@ I’ve also participated in evaluating proposals. This proposal evaluation has i
 
 I’ve been invited to give talks at various institutions about SPHERES, Astrobee, and Robotics research on ISS. Some included a Google Tech Talk in November of 2017l the World’s Fair Nano 2018 in San Francisco, and a Technical Interchange Meeting with the Japanese Space Agency, JAXA in January of 2018.
 
-### Computer Engineer, AST, Data Systems, NASA Ames Research Center, July 2018 - Current, Mountain View, CA
 
-In the years I’ve been a civil servant at NASA Ames, I’ve consistently been evaluated as “Substantively Exceeds Expectations”. I have continued to manage the Astrobee Facility project. Astrobee is a free-flying robotic platform for conducting Intra-Vehicular Activities (IVA) inside of ISS. The Astrobee Facility is an important shared platform on ISS for conducting both fundamental research (i.e., fluidic sloshing dynamics) and higher TRL level technology development needed for deep space exploration. It is a project tasked primarily with maintaining and sustaining this platform in the service of its various users. This also includes providing training and integration support in both the technical development and the overall ISS Program Payload integration process. The many Astrobee users come from academia, government, and private industry.
 
-- We have been responsive to Payload Developer schedules for On-orbit Test Sessions. Some delays have resulted from planning product development and crew time shortages, but we've adapted to meet user expectations.
-- Project costs were within expectations for FY2023.
-- Supported users include the following:
-    - MIT with three investigations: SPHERES-Reswarm, ROAM, and Zero Robotics.
-    - JAXA with a joint Astrobee and Int-Ball free flyer activity on ISS in 2021, Kibo Robotic Programing Challenge (Kibo-RPC-2) (midway through year 3)
-    - Astrobotic Inc./Bosch with SoundSee on Astrobee
-    - Naval Post Graduate School with Astrobatics on Astrobee
-    - Stanford with the Gecko-Inspired Astrobee gripper
-    - NASA-AES Logistics Reduction REALM-2 with RFID scanner on Astrobee
-    - NASA's ISAAC STMD project
-    - FIT’s SVGS vision navigation project
-    - SOARS
-    - Cubee/CLING
+### Microchip Technology Inc. - Intern
+*2003 - 2007 | Chandler, AZ*
 
-- New Business/development
-  - I've led the Astrobee network communications pipeline integration and testing. This has involved coordinating requirements, testing, server administration, and scheduling ISS program services. In this POP, we’ve assessed a new, hardware-in-the-loop testing capability utilizing an ISS Program tool call RAPTR.
-  - Coordinated integration with the ISS Imagery Working Group to ensure proper video routing and archiving for Astrobee operations
-  - Actively support Astrobee test session operations with activity logging, telemetry monitoring, answering questions, procedure tracking, time-line monitoring
-  - Tracking updates to the Astrobee Interface Control Document (ICD) or Guest Scientist Guide document (GSP)
-  - coordinating a new Astrobee payload called SOARS. It's an STTR funded effort to research fluid transfer mechanisms in micro-gravity.
+- Built, debugged, executed, and analyzed microcontroller test setup data resulting in a significant design win
+- Authored three published application articles demonstrating the use of Microchip products for embedded systems development (involving both hardware and software)
+- Developed and taught short courses on embedded systems signal conditioning and embedded feedback systems at Microchip 05 & 07 Technology Conferences
+- As lead applications intern, I mentored three other interns in software development
+- Accepted the lead in the planning, design, analysis, development, and test of a microcontroller data acquisition system for ESD robustness testing utilizing high voltage instruments. This project also involved acquiring, reducing, computing, and producing statistical data products that highlighted product performance
 
-- SBIR/STTR work
-  - I Oversee multiple phase I's and phase II's SBIR contracts as Techincal Monitor or COR
-  - I am the "Z5.04 Technologies for Intra-Vehicular Activity Robotics" Topic and Subtopic Manager in 2020, 2021, 2022, and 2023
-  - I successfully completed the SBIR phase 1 and phase 2 reviews for 2023.
+### IBM - Co-op
+*Summer 2002/2006/2007 | Austin, TX*
 
-As a project manager, I’ve gained the experience and skills needed for supervising employees, identifying strategic objectives, defining, and assigning work/milestones, evaluating accomplishments, and recommending employee recognition. I feel strongly that I’ve frequently and consistently demonstrated the competencies of Planning, Problem Solving, Teamwork, General Engineering, Project Management, Technical Competence, Technical Management, and Leadership.
+- Supported the maintenance, configuration, modification, installation, test, and operation of IBM Enterprise Storage Server (ESS) mainframe computer systems
+- Operated Unix/AIX data systems
+- Power 7 VMX/Altivec Performance Verification
+- Supported industry leading Power 7 servers for data handling and computing
+- Power 6 Server Software and Firmware Bring-up installation and test
+- Worked on improving processes and establishing procedures for Co-op training and on-boarding
+- Participated in computer engineering Co-op mentorship program
 
 ## Education
 
-### Arizona State University, 2001 - 2009, Tempe, AZ, Electrical Engineering Bachelors and Masters degree
+### Arizona State University 
+*2001 - 2009 | Tempe, AZ* 
+
+Electrical Engineering Bachelors and Masters degree
 
 ### Job Related Training
 
