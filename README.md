@@ -54,3 +54,5 @@ rsync_upload: upload the web site via rsync+ssh
 2. make publish
 3. cd ../jvbenavi.github.io; git add/commit/push
 
+ 
+
